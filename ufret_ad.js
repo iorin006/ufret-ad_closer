@@ -3,7 +3,7 @@
 // @namespace    https://www.ufret.jp/
 // @version      2126-08-27
 // @description  ublock 必須
-// @author       You
+// @author       iorin006
 // @match        https://www.ufret.jp/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ufret.jp
 // @grant        none
