@@ -7,6 +7,8 @@
 // @match        https://www.ufret.jp/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=ufret.jp
 // @grant        none
+// @updateURL    https://raw.githubusercontent.com/iorin006/ufret-ad_closer/main/ufret_ad.js
+// @downloadURL  https://raw.githubusercontent.com/iorin006/ufret-ad_closer/main/ufret_ad.js
 // ==/UserScript==
 
 function remove_class(elements) {
