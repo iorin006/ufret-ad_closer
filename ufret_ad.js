@@ -9,6 +9,8 @@
 // @grant        none
 // @updateURL    https://raw.githubusercontent.com/iorin006/ufret-ad_closer/main/ufret_ad.js
 // @downloadURL  https://raw.githubusercontent.com/iorin006/ufret-ad_closer/main/ufret_ad.js
+// @supportURL   https://github.com/iorin006/ufret-ad_closer/issues
+// @homepage     https://github.com/iorin006/ufret-ad_closer
 // ==/UserScript==
 
 function remove_class(elements) {
