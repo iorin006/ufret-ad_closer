@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @description  ublock必須
 // @author       me
 // @match        https://www.ufret.jp/*
@@ -36,5 +36,6 @@ setInterval(() => {
     remove_class('fixed-premium-banner__content d-flex');
     remove_class('fixed-premium-banner container');
     remove_class('notice-background')
+    remove_class('col-12')
 
 }, 100);
