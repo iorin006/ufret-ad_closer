@@ -6,8 +6,8 @@
 // @author       JoelMatic
 // @match        https://www.youtube.com/*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
-// @updateURL    https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
-// @downloadURL  https://github.com/TheRealJoelmatic/RemoveAdblockThing/raw/main/Youtube-Ad-blocker-Reminder-Remover.user.js
+// @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
+// @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
 // @grant        none
 // ==/UserScript==
 
