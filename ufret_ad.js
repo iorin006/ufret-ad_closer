@@ -1,15 +1,16 @@
 // ==UserScript==
-// @name         Remove Adblock Thing
+// @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
-// @version      5.6
-// @description  Removes Adblock Thing
-// @author       JoelMatic
-// @match        https://www.youtube.com/*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=youtube.com
+// @version      1.0
+// @description  ublock必須
+// @author       me
+// @match        https://www.ufret.jp/*
+// @icon         https://www.ufret.jp/favicon.ico
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
 // @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
 // @grant        none
 // ==/UserScript==
+
 
 function remove_class(elements) {
     var jama = document.getElementsByClassName(elements);
