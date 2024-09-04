@@ -1,14 +1,12 @@
 // ==UserScript==
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
-// @version      1.2
 // @description  ublock必須
 // @author       me
 // @match        https://www.ufret.jp/*
 // @icon         https://www.ufret.jp/favicon.ico
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
-// @require      https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @grant        none
 // ==/UserScript==
 
