@@ -1,6 +1,7 @@
 // ==UserScript==
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
+// @version      1.2
 // @description  ublock必須
 // @author       me
 // @match        https://www.ufret.jp/*
@@ -16,7 +17,7 @@ function remove_class(elements) {
     var jama = document.getElementsByClassName(elements);
     if (jama.length > 0) {
         for (var i = 0; i < jama.length; i++) {
-            jama[i].remove()
+            jama[i].style.display = 'none'
         }
     }
 }
