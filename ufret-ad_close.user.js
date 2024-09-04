@@ -23,9 +23,16 @@ function remove_class(elements) {
 setInterval(() => {
 
     var jama1 = document.getElementById('ufret-ad-close')
+    var images = document.getElementsByTagName('img')
+
     if (jama1) {
         jama1.click()
     }
+
+    for (var i = 0; i < images.length; i++) {
+        images[i].setAttribute('width', '0%');
+    }
+
     remove_class('notice-close-button');
     remove_class('d-block w-100');
     remove_class('btn btn-lg btn-danger btn-block');
