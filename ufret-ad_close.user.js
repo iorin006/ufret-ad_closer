@@ -17,7 +17,7 @@ function remove_class(elements) {
     var jama = document.getElementsByClassName(elements);
     if (jama.length > 0) {
         for (var i = 0; i < jama.length; i++) {
-            jama[i].style.display = 'none'
+            jama[i].remove()
         }
     }
 }
