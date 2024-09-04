@@ -1,7 +1,6 @@
 // ==UserScript==
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
-// @version      1.1
 // @description  ublock必須
 // @author       me
 // @match        https://www.ufret.jp/*
