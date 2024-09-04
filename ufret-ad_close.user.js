@@ -36,6 +36,5 @@ setInterval(() => {
     remove_class('fixed-premium-banner__content d-flex');
     remove_class('fixed-premium-banner container');
     remove_class('notice-background')
-    remove_class('col-12')
 
 }, 100);
