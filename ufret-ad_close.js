@@ -6,8 +6,8 @@
 // @author       me
 // @match        https://www.ufret.jp/*
 // @icon         https://www.ufret.jp/favicon.ico
-// @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
-// @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret_ad.js
+// @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
+// @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @grant        none
 // ==/UserScript==
 
