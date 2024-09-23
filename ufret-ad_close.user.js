@@ -10,6 +10,19 @@
 // @grant        none
 // ==/UserScript==
 
+function myFunction(e) {
+    e.preventDefault();
+    var now = new Date().getTime() / 10;
+    $.get('/web_api/set_ad_free_start_time.php', {
+        start_time: now
+    }, function (response) {
+       // window.location.reload();
+    }).fail(function () {
+        alert('広告非表示の設定に失敗しました。');
+    });
+}
+
+myFunction(new Event('click'));
 
 function remove_class(elements) {
     var jama = document.getElementsByClassName(elements);
