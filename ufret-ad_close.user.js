@@ -2,7 +2,7 @@
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
 // @description  ublock推奨
-// @author       me
+// @author       me & AI
 // @match        https://www.ufret.jp/*
 // @icon         https://www.ufret.jp/favicon.ico
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
