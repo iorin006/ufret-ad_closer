@@ -9,7 +9,6 @@
 // @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @grant        none
 // ==/UserScript==
-
 (function() {
     'use strict';
     
