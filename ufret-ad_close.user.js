@@ -2,7 +2,7 @@
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
 // @description  ublock推奨
-// @author       me
+// @author       me & AI
 // @match        https://www.ufret.jp/*
 // @icon         https://www.ufret.jp/favicon.ico
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
@@ -39,7 +39,7 @@
         if (el) el.click();
     };
 
-    // すべての画像の幅を0%にして非表示にする
+    // すべての画像の非表示
     const hideImages = () => {
         document.querySelectorAll('img').forEach(img => {
             img.style.display = 'none';
@@ -62,7 +62,7 @@
         ]);
     };
 
-    // 定期的に広告削除処理を実行（ランダムな間隔で実行することでパターンを隠蔽）
+    // 定期的に広告削除処理を実行
     const scheduleRemoval = () => {
         removeAds();
         const delay = 500 + Math.random() * 250; // 500～750msのランダムな遅延
