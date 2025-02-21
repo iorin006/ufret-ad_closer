@@ -2,7 +2,7 @@
 // @name         ufret-ad_close
 // @namespace    http://tampermonkey.net/
 // @description  ublock推奨
-// @author       me & AI
+// @author       me
 // @match        https://www.ufret.jp/*
 // @icon         https://www.ufret.jp/favicon.ico
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
@@ -42,7 +42,7 @@
     // すべての画像の幅を0%にして非表示にする
     const hideImages = () => {
         document.querySelectorAll('img').forEach(img => {
-            img.style.width = '0%';
+            img.style.display = 'none';
         });
     };
 
