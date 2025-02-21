@@ -5,6 +5,7 @@
 
 ## 機能
 ufretにある邪魔なhtml要素(広告など)を消すことができます
+<br>
 ublockと合わせることでufretから邪魔なものを完全に消すことができます <a href="https://ublockorigin.com/jp">ublockorigin</a>
 
 ## 使い方
