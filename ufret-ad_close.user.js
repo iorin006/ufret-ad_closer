@@ -9,13 +9,14 @@
 // @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @grant        none
 // ==/UserScript==
+
 (function() {
     'use strict';
     
     // 広告非表示開始時刻をセキュアに設定する（fetchを利用）
     const setAdFreeStartTime = () => {
         const now = Date.now() / 10;
-        fetch(`/web_api/set_ad_free_start_time.php?start_time=${encodeURIComponent(now)}`)
+        fetch(/web_api/set_ad_free_start_time.php?start_time=${encodeURIComponent(now)})
             .then(response => {
                 if (!response.ok) {
                     throw new Error('ネットワークエラー');
@@ -39,10 +40,10 @@
         if (el) el.click();
     };
 
-    // すべての画像の非表示
+    // すべての画像の幅を0%にして非表示にする
     const hideImages = () => {
         document.querySelectorAll('img').forEach(img => {
-            img.style.display = 'none';
+            img.style.width = '0%';
         });
     };
 
@@ -62,7 +63,7 @@
         ]);
     };
 
-    // 定期的に広告削除処理を実行
+    // 定期的に広告削除処理を実行（ランダムな間隔で実行することでパターンを隠蔽）
     const scheduleRemoval = () => {
         removeAds();
         const delay = 500 + Math.random() * 250; // 500～750msのランダムな遅延
