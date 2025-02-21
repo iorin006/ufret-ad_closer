@@ -7,4 +7,4 @@
 ublockと合わせることでufretから邪魔なものを完全に消すことができます <a href="https://ublockorigin.com/jp">ublockorigin</a>
 
 ## 使い方
-Tampermonkeyをお使いのブラウザに入れてリンクをクリックしてインストールしてください
+<a href="https://www.tampermonkey.net/">Tampermonkey</a>をお使いのブラウザに入れてリンクをクリックしてインストールしてください
