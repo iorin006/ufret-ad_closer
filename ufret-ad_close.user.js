@@ -8,7 +8,7 @@
 // @updateURL    https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @downloadURL  https://github.com/iorin006/ufret-ad_closer/raw/main/ufret-ad_close.js
 // @grant        none
-// @version 2
+// @version      2
 // ==/UserScript==
 
 (() => {
